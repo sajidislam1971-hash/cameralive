@@ -1,17 +1,14 @@
-GET /Documents/cctv/index.m3u8 HTTP/1.1
-
-Host: virgen-selfish-raisa.ngrok-free.dev
-
-User-Agent: MXPlayer/1.10 (Linux; Android)
-
-Accept: */*
-
-Icy-Metadata: 1
-
-Range: bytes=0-
-
-X-Forwarded-For: 103.73.46.239
-
-X-Forwarded-Host: virgen-selfish-raisa.ngrok-free.dev
-
-X-Forwarded-Proto: https
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1032
+#EXTINF:2.000000,
+index1032.ts
+#EXTINF:1.999000,
+index1033.ts
+#EXTINF:2.000000,
+index1034.ts
+#EXTINF:1.999000,
+index1035.ts
+#EXTINF:2.000000,
+index1036.ts
