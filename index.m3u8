@@ -1,10 +1,42 @@
+HTTP/1.1 206 Partial Content
+
+Accept-Ranges: bytes
+
+Access-Control-Allow-Origin: *
+
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Range
+
+Content-Range: bytes 0-224/225
+
+Content-Length: 225
+
+Content-Type: application/vnd.apple.mpegurl
+
+cache-control: max-age=3600
+
+last-modified: Sun, 11 Jan 2026 06:28:17 GMT
+
+etag: W/"8444249301606185-225-2026-01-11T06:28:17.409Z"
+
+Date: Sun, 11 Jan 2026 06:28:19 GMT
+
+Connection: keep-alive
+
+Keep-Alive: timeout=5
+
+
+
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:117
+#EXT-X-MEDIA-SEQUENCE:679
 #EXTINF:1.999000,
-index117.ts
+index679.ts
 #EXTINF:2.000000,
-index118.ts
+index680.ts
 #EXTINF:1.999000,
-index119.ts
+index681.ts
+#EXTINF:2.000000,
+index682.ts
+#EXTINF:1.999000,
+index683.ts
